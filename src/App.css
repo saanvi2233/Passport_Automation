@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./pp.jpg'); /* Replace with the actual path to your image */
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  font-family: 'Roboto', sans-serif; /* Optional: Ensures consistency with MUI theme */
+}
